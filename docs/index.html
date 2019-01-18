@@ -9,31 +9,26 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app">加载中。。。</div>
+  <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'WebCollection',
       repo: '',
       loadSidebar: true,
-      loadNavbar: true,
-     // coverpage: true, // 封面
-      subMaxLevel: 2,
-      executeScript: true,
-      repo: 'QAQXiYangYang/My-notes',
-      // 支持本地化
-      placeholder: {
-        '/zh-cn/': '搜索',
-        '/': 'Type to search'
-      },
-
+      subMaxLevel: 1,
+      maxLevel:3,
+      auto2top: true,// 切换页面后是否自动跳转到页面顶部。
+      // notFoundPage: 'my404.md',
       search: {
         maxAge: 86400000,
         placeholder: '🔍戳这里搜索',
-        noData: '哇哦，找不到🚫'
-      }
+        noData: '🚫哇哦，找不到'
+      },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- 搜索插件 -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <!-- 表情插件 -->
   <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
   <!-- 代码高亮 -->
