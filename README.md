@@ -1,6 +1,6 @@
 # WebCollection
 ---
-我的web收藏夹
+我的web收藏夹 https://bibabooo.github.io/WebCollection/
 
 ---
 [中文文档]https://docsify.js.org/#/zh-cn/quickstart`
