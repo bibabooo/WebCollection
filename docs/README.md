@@ -18,4 +18,4 @@ docsify serve docs
 ```
 
 
-  [1]: https://docsify.js.org/#/zh-cn/quickstart
+[1]: https://docsify.js.org/#/zh-cn/quickstart

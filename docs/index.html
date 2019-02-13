@@ -15,7 +15,7 @@
       name: 'WebCollection',
       repo: '',
       loadSidebar: true,
-      subMaxLevel: 1,
+      subMaxLevel: 5, // 自定义侧边栏同时也可以开启目录功能
       maxLevel:3,
       auto2top: true,// 切换页面后是否自动跳转到页面顶部。
       // notFoundPage: 'my404.md',
@@ -33,5 +33,7 @@
   <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
   <!-- 代码高亮 -->
   <script src="//unpkg.com/prismjs/components/prism-javascript.js"></script>
+  <!--代码复制-->
+  <script src="//unpkg.com/docsify-copy-code"></script>
 </body>
 </html>
